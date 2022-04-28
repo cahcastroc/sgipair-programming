@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+  font-family: "Poppins", sans-serif;
+  height: auto;
+}
+#container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* #region Cabecalho*/
+header {
+  background-color: #000;
+  width: 100%;
+  height: 55px;
+  display: block;
+}
+
+header h1 a {
+  display: block;
+  text-indent: -9999px;
+  background-image: url(img/icones/logo.png);
+  background-repeat: no-repeat;
+  background-position: 2%;
+}
+
+.carrinho img {
+  position: absolute;
+  width: 37px;
+  height: 42px;
+  right: 50px;
+  top: 10px;
+}
+
+.menu {
+  background-color: white;
+  width: 100%;
+  height: 55px;
+  border-bottom: 1px solid gray;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.menu-principal li {
+  display: inline-block;
+  list-style: none;
+  padding: 20px;
+  font-size: 1.3em;
+}
+
+.menu-principal a {
+  text-decoration: none;
+  color: #06070a;
+}
+
+.menu-principal a:hover {
+  color: #06070a;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+#pesquisa {
+  position: relative;
+  padding: 10px 15px;
+  height: 30px;
+  width: 250px;
+  border-radius: 20px;
+  bottom: 20px;
+}
+
+#procurar {
+  background-color: #fff;
+  padding: 0;
+  width: 50px;
+  border: none;
+}
+
+.login-cadastro {
+  position: relative;
+  right: 0px;
+  margin-top: 10px;
+}
+
+#procurar img {
+  margin-right: 350px;
+  height: 50px;
+}
+
+.login-cadastro img {
+  width: 40px;
+  height: 42px;
+  padding-left: 40px;
+}
+
+button {
+  cursor: pointer;
+}
+/* #endregion Cabecalho*/
+
+/* #region Corpo*/
+h2 {
+  text-align: start;
+  border-bottom: 5px solid #000;
+  line-height: 0.1em;
+  margin: 10px;
+  margin-top: 50px;
+}
+
+h2 span {
+  background: #fff;
+  padding: 0 10px;
+  box-shadow: 3px 2px 1px 0px rgba(70, 69, 69, 0.25); /*Alterações Vini*/
+  border-radius: 5px; /*Alterações Vini*/
+}
+h2 span:hover {
+  box-shadow: 3px 2px 1px 0px rgba(0, 0, 0, 0.753);
+  transition: 0.8s;
+}
+.fig-principal {
+  margin-left: 100px;
+  margin-top: 50px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+#destaque1 {
+  width: 360px;
+  height: 183px;
+}
+
+.destaque-vertical {
+  width: 130px;
+  height: 183px;
+}
+figure {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 5px 8px;
+  border-radius: 5px;
+}
+
+figure:hover {
+  transform: scale(1.2);
+  transition: 0.7s ease-in;
+}
+.destaque-horizontal {
+  width: 215px;
+  height: 130px;
+}
+figcaption {
+  font-size: 10px;
+}
+.ver-mais {
+  display: flex;
+  justify-content: end;
+}
+.ver-mais p {
+  margin-top: 30px;
+  margin-right: 30px;
+}
+.ver-mais a {
+  color: grey;
+  opacity: 0.8;
+  text-decoration: none;
+  font-weight: bolder;
+}
+.ver-mais a:hover {
+  color: purple;
+  transition: 0.8s;
+}
+
+.bloco-eventos{
+  width: 100%;  
+}
+/* #endregion Corpo*/
+
+
+/* #region Rodape*/
+.rodape{
+  background-color: #000;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.rodape li{
+  list-style: none;
+}
+
+.redes-sociais{
+  position: relative;
+  top: 150px;
+}
+
+.redes-sociais li{
+  display: inline-block;
+}
+
+.redes-sociais img{
+  width: 50.5px;
+  height: 45px;
+}
+
+.logo-rodape{
+  position: relative;
+  top: 50px;
+}
+
+.rodape-titulos{
+  margin-top: 10px;
+  
+  margin-bottom: 20px;
+}
+
+.rodape-titulos h4{
+  color: rgba(245, 245, 245, 0.8);
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.rodape-titulos a{
+  text-decoration: none;
+  font-size: medium;
+}
+/* #endregion Rodape*/
