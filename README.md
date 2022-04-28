@@ -1,10 +1,6 @@
-# Exercícios realizados com Javascript (Vanilla)
+# Exercício realizado em PairProgramming
 
 
+* Criação de uma página inicial de uma Sistema de Gerenciamento de Ingressos. Utilização de HTML e CSS
 
-* TP1 e TP3 (Exercícios) básicos da disciplina Javascript do Instituto Infnet realizados em 2021 no primeiro contato com a linguagem.
-
-TP1 - Lógica de programação com JS.
-
-TP3 - HTML, CSS e JS - Iniciante
 
